@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Testing
+title: Github pages and Jekyll
 categories: Jekyll
 ---
-
-# Github pages and Jekyll
 
 This blog is created using Jekyll, hosted on GitHub using GitHub Pages.
 
 [GitHub Pages](https://pages.github.com/) are hosted directly from your repository, providing a very easy way to serve simple sites at zero cost.  It's very easy to set up, just create a repository called *username*.github.io, create a basic index.html page and once pushed to your repository your new page will be live at https://*username*.github.io, nice and easy!
 
+<!--more-->
 ## Jekyll
 
 GitHub Pages has builtin support for [Jekyll](https://jekyllrb.com/), the static site generator, giving you a very easy way to set up a blog.  A nice easy way to get started with GitHub Pages and Jekyll is to use a starting point like [Jekyll Now](http://www.jekyllnow.com/), created by Barry Clark.  Also, see his [Smashing Magazine](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) article for a more detailed walkthrough.
