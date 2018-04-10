@@ -2,6 +2,7 @@
 layout: post
 title: Github pages and Jekyll
 categories: Jekyll
+tags: Jekyll,GitHub
 ---
 
 This blog is created using Jekyll, hosted on GitHub using GitHub Pages.
