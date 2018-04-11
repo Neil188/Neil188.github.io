@@ -89,3 +89,5 @@ exclude:
 
 # set excerpt separator marker
 excerpt_separator: <!--more-->
+
+new_tab: '{:target="_blank" rel="noopener noreferrer"}'
