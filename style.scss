@@ -21,7 +21,7 @@ html {
 body {
 	background: $white;
   // font: 18px/1.4 $helvetica;
-  font: 1.7rem/1.4 $verdana;
+  font: 1.6rem/1.4 $verdana;
   color: $darkGray;
 }
 
@@ -71,11 +71,12 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $green;
+  cursor: pointer;
   text-decoration: none;
-	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $green;
+    text-decoration: underline;
   }
 }
 
@@ -267,9 +268,26 @@ nav {
     margin-top: 1rem;
   }
 
+  .post-details {
+    color: $gray;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+  }
+
+  .post-category {
+    text-transform: uppercase;
+  }
+
   .read-more {
     text-transform: uppercase;
     font-size: 1.5rem;
+    margin-left : -4px;
+    padding: 2px 4px;
+    &:hover, &:active {
+      background: $green;
+      color: white;
+    }
   }
 }
 
