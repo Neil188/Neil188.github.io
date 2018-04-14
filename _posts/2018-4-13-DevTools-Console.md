@@ -9,6 +9,8 @@ The DevTools console in Chrome gives you an incredible amount of tools to help y
 
 <!--more-->
 
+For more DevTools info see the [Google developers guide](https://developers.google.com/web/tools/chrome-devtools/console/){{ site.new_tab }}  
+
 ## Displaying details of last element/object selected using $0-$4
 
 The last 5 recently inspected DOM elements or JavaScript heap objects are temporarily stored in variables for easy access: $0 - $4.
@@ -109,17 +111,3 @@ Use the command `monitor(<function name>` to watch a function, this will print t
 ![Monitoring a function]({{ "/images/posts/DevTools-Monitor.jpg" | absolute_url }})
 
 Use `unmonitor(<function name>)` to cease monitoring.
-
-## Adding Breakpoint on element attribute change
-
-In DevTools Elements panel, right click on an element (or click on the three dots to the left of the element), then select Break on > Attribute change.
-
-![Select Attribute Change]({{ "/images/posts/DevTools-Break-on-attribute-change-1.jpg" | absolute_url }})
-
-To the left of the element, you should now see a small circle indicating a DOM breakpoint.  Additionally, you should now see the breakpoint listed under DOM Breakpoints.
-
-![DOM Breakpoints]({{ "/images/posts/DevTools-Break-on-attribute-change-2.jpg" | absolute_url }})
-
-Now, whenever one of the element attributes change then DevTools will pause on the line making the change.
-
-To remove the breakpoint go back to the Elements panel, and repeat the Break On > Attribute Change select (you should see a tick next to this breakpoint).  Alternatively, on the DOM Breakpoints panel untick this breakpoint, this leaves it listed, which allows you to easily reset it later.
