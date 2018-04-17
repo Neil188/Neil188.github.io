@@ -113,6 +113,26 @@ img {
   max-width: 100%;
 }
 
+table {
+  border-collapse: collapse;
+  font-size: 1.5rem;
+}
+
+th {
+  background-color: $lightGray;
+  color: $darkerGray;
+}
+
+td, th {
+  border: 1px solid $lightGray;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+tr:hover {
+  color: $gray;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
