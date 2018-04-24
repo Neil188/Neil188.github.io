@@ -119,6 +119,11 @@ img {
 table {
   border-collapse: collapse;
   font-size: 1.5rem;
+  @include mobile {
+    overflow: auto;
+    display: block;
+    white-space: nowrap;
+  }
 }
 
 th {
