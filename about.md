@@ -12,4 +12,6 @@ Away from computers I love coffee, reading, photography and walking.  I obsess a
 
 ## Give blood!
 
-If you are in the UK, and able to, I urge you to consider giving blood - [visit NHS Blood and Transplant](https://www.blood.co.uk/){{ site.new_tab }}.  I've done 26 donations so far, and have always found it an easy and painless process, so if you haven't gone before please consider it, the staff are always extremely friendly and will guide you through the process without any pressure.
+![Blood.co.uk]({{ "/images/blood.co.uk.jpg" | absolute_url }})
+
+If you are able to, I urge you to consider giving blood - [for the UK visit NHS Blood and Transplant](https://www.blood.co.uk/){{ site.new_tab }}.  I've done 27 donations so far, and have always found it an easy and painless process, so if you haven't gone before please consider it, the staff are always extremely friendly and will guide you through the process without any pressure (+free biscuits!).
