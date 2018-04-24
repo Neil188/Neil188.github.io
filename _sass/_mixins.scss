@@ -1,0 +1,20 @@
+
+//
+// MIXINS
+//
+
+@mixin title {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 20px;
+  
+    @supports (display: grid) {
+      &:before,
+      &:after {
+        content: "";
+        align-self: center;
+        border-top: 1px solid $green;
+      }
+    }
+}
