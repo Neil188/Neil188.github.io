@@ -332,6 +332,21 @@ footer {
   @include title;
 }
 
+//
+// 404
+// 
+.notfound {
+  // max-width: 740px;
+  min-height: 420px;
+  padding: 2rem;
+  color: $white;
+  background: no-repeat url("/images/404.jpg");
+
+  h1 {
+    @include title;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
