@@ -74,11 +74,11 @@ p {
 }
 
 a {
-  color: $lightgreen;
+  color: $green;
   cursor: pointer;
   text-decoration: none;
   &:hover, &:active {
-    color: $green;
+    color: $lightgreen;
     text-decoration: underline;
   }
 }
@@ -283,6 +283,10 @@ nav {
 }
 
 .post {
+  .entry a {
+    text-decoration: underline;
+  }
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 0.2rem solid $gray;
@@ -315,6 +319,9 @@ nav {
     &:hover, &:active {
       background: $green;
       color: white;
+    }
+    &:before {
+      content: "\27A4";
     }
   }
 
@@ -357,6 +364,18 @@ footer {
   h1 {
     @include title;
   }
+}
+
+//
+// footer
+//
+
+.hide {
+  opacity: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
