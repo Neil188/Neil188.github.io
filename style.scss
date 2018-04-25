@@ -322,6 +322,31 @@ nav {
   }
 }
 
+
+//
+// .pagination
+//
+
+.pagination {
+  border-top: 0.1rem solid $green;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0;
+
+  a.next:after {
+    content: "\2B9A";
+    padding-left: 2px;
+  }
+  a.previous:before {
+    content: "\2B98";
+    padding-right: 2px;
+  }
+}
+
+//
+// .footer
+//
+
 .wrapper-footer {
   display: none;
 }
