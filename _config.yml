@@ -18,18 +18,18 @@ avatar: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWIAAAFiCAYAAADMXNJ6AAA6wU
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
-  email:
+  xdribbble:
+  xemail:
   facebook: neil.lupton.79
   flickr: neillupton
   github: Neil188
-  instagram:
+  xinstagram:
   linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
+  xpinterest:
+  rss: rss # just type anything here for a working RSS icon
   twitter: NeilLupton
   stackoverflow: users/8849629/neil-lupton
-  youtube: # channel/<your_long_string> or user/<user-name>
+  xyoutube: # channel/<your_long_string> or user/<user-name>
   googleplus: +NeilLupton 
   codepen: Neil188
 

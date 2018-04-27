@@ -20,7 +20,10 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}"  alt-text="Neil Lupton" /></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gQbFjEO3I6TAAAABEFJREFUeNrtnVtoHUUch7+k1YAPsSJqwQdPSW0LBlpprBEvHVEUlU5aEKTYCYpYrIp4tw9iREQRQR+8IPSpjCj4UjtQUVro1JDWWsULYoltieJToBfRKBQsx4ds8LSGRDh79j87M99Lrmdn98tv/3PZ3RPIZDKZTCaTyWQymUwmk4mHrpB3Thk9AGhgNXDxLL9yAvgS+Mhbd7jldcpb57Po2aV2eeuayuh7gMeBweJHzf+5n78BI8B7wOnie9uBN7113yUvukXwRuCDEjZ5BvgduKj4egfwJHC5t24sZdEDwKEKm/wCeM5b93mVx7lQMsnA1UWNjZ5uwbZ7ga8rPqt2eeuuA0ZTEr1HoM07ldFTwKKURJ8GPhboky4AdifRGRb1+VrggOAfer23bmfsie4VlgywJYXSsQd5VkVdOpTRi4BTgYy6FnvrJmNN9NPFtBrgW2HRS2KesJwApoDLgL9IBIlEO+BK4CoSonLR3rpjRV1c31JCpOhJYcLyN8KLWt66fSmIlmZHKlNwaXZm0dWUje3Ri1ZG9wA3p1I2REQro88HPgEmhCQ3gR9SGEdv89bdAqwQEt2VRKJbZoOS/UNPCqL/LD7uEhQ9kYLomdsA3hUccUymIPqoMrofOM70esd+gQ75iuhFe+teBR4BHvLW/eitu15g1PGgRA8sgjK6D3gWuAFYRrVLtk95695IQnSLcIkVvKXeumPJTMGV0RKzw1+rliwu2lu3l+rvGtpQ3O6QRo0+J9kOWFdBU5u9ddukpqPSktcCvsOjjBe8dS9LHqd0jX6lw5JnwvSpdKCk16Nvragv+Cp10X+0fH4E+Ab4kAhZKNl4sVx6bjnZCmwssZn9IYgO8VLW60CZV6cnsujZU37GW6co75GLI1n03NxR0tBuKoueO9knmV5KbXdoN5pFz8/7JWzjvCx6fnaXcGaMZdHzc7SE2ec7xS0OWfQcafyJ6UeO2+FhYCyLnjuNm4EFJWxqQBn9mOSxdAUs+TbgsxI3OQn0e+uO50SfzX0lb+9S4NFcOv7Lkg6cvQ8oo9/OpePs0rEPuKkDm24C48AGYNxb10w20croezskeSZcK4DDQCPpRCujT/LvrWOdZi0w2ulkdwco+cUKJcP0kuzSFEvHiECbh5ISXaRZgl5ltO9kAwtCEt1YuXyv4MSt0Vi5/NTP348fjDrRyuj7A9iN51MoHf0B7MMlyuiXYhc9FMh+bIpddF8oU39l9HCUopXRzwQ2xNwSa6IXByZ6UBk9GKPoIcJjKEbRfQGK3hqVaGX0OgJFGf1ETIm+m3AZiUn0cMCiLywe06u3aGX0JsLnrjIeLpJO9O01ED1cxkUBadF1SPTqWpeO4r9T1IIyRkaSiX6N+rCq3Tot9Ubda4CDNRL9i7euUcdEv0W9aPv9PbqF0rymZqJRRt9Yt0Rb6sk1tRFdXBdcVlPRve28+B8wuRDkpadG9wAAAABJRU5ErkJggg=="  alt="Neil Lupton" />
+            <span class="hide" style="opacity: 0">Logo</span>
+          </a>
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
@@ -49,4 +52,9 @@
 
     {% include analytics.html %}
   </body>
+  <script async type="text/javascript" src="{{ site.baseurl }}/scripts/lazy-load.js"></script>
+  <noscript>
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style2.css" />
+  </noscript>
 </html>
