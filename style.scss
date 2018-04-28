@@ -13,81 +13,12 @@
 /**************/
 /* BASE RULES */
 /**************/
-
-html {
-  // resize base font size to 10px (16px * 62.5), allows easy calculation of rem values.
-  font-size: 62.5%;
-}
-
-body {
-	background: $white;
-  font-size: 1.6rem;
-  line-height: 1.4;
-  color: $darkGray;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 1rem;
-  width: 100%;
-}
-
 h1, h2, h3, h4, h5, h6 {
-  color: $darkerGray;
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1rem 0 1.5rem;
-  padding: 0;
-
   @include mobile {
     line-height: 1.4;
   }
 }
 
-h1 {
-  font-size: 3rem;
-  a {
-    color: inherit;
-  }
-}
-
-h2 {
-  font-size: 2.4rem;
-}
-
-p {
-  margin: 1.5rem 0;
-}
-
-a {
-  color: $green;
-  cursor: pointer;
-  text-decoration: none;
-  &:hover, &:active {
-    color: $lightgreen;
-    text-decoration: underline;
-  }
-}
-
-
-em, i {
-  font-style: italic;
-}
-
-strong, b {
-  font-weight: bold;
-}
-
-img {
-  max-width: 100%;
-}
-
-.date {
-  font-style: italic;
-  color: $gray;
-}
 
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
@@ -151,9 +82,6 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 2.8rem;
   letter-spacing: 0.1rem;
@@ -231,10 +159,6 @@ nav {
     font-size: 1.5rem;
     margin-left : -4px;
     padding: 2px 4px;
-    &:hover, &:active {
-      background: $green;
-      color: white;
-    }
     &:before {
       content: "\27A4";
     }

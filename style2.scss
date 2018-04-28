@@ -9,11 +9,13 @@
 /**************/
 /* BASE RULES */
 /**************/
-body {
-    font-family: $verdana;
-}
 h1, h2, h3, h4, h5, h6 {
-    font-family: $helveticaNeue;
+    color: $darkerGray;
+}  
+h1 {
+    a {
+      color: inherit;
+    }
 }
 h3 {
     font-size: 2rem;
@@ -23,7 +25,25 @@ h4 {
     font-size: 1.8rem;
     color: $gray;
 }
-
+a {
+    color: $green;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover, &:active {
+        color: $lightgreen;
+        text-decoration: underline;
+      }    
+}
+em, i {
+    font-style: italic;
+  }
+strong, b {
+    font-weight: bold;
+}
+.date {
+    font-style: italic;
+    color: $gray;
+}
 ul, ol {
     margin: 1.5rem 0;
     padding-left: 3rem;
@@ -89,6 +109,11 @@ tr:hover {
     max-width: none;
 }
 
+.site-name {
+    color: $darkGray;
+    cursor: pointer;
+}
+
 //
 // .main
 //
@@ -119,7 +144,12 @@ tr:hover {
     @include title;
   }
   
-
+.read-more {
+    &:hover, &:active {
+        background: $green;
+        color: white;
+    }
+}
 //
 // footer
 //
