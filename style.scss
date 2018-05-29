@@ -290,6 +290,15 @@ nav {
   .entry a {
     text-decoration: underline;
   }
+  .entry a[target="_blank"] {
+    background: url(/images/External_link.svg) no-repeat center right 0;
+    background-size: 1.2rem;
+    padding-right: 1.5rem;
+    transition: background-position 0.5s;
+  }
+  .entry a[target="_blank"]:hover {
+    background-position: center right 2px;
+  }
 
   .post-details {
     color: $gray;
