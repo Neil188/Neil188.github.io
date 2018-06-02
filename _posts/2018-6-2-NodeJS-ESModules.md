@@ -82,6 +82,7 @@ An alternative is to use Babel to transpile any ES Module code back to CommonJS 
 ```bash
 npm i -D babel-cli babel-preset-env
 ```
+
 and create a `.babelrc` config file containing
 
 ```json
