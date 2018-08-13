@@ -57,6 +57,12 @@ baseurl: ""
 
 permalink: /:day-:month-:year/:title/
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+
+
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
