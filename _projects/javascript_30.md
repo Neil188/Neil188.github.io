@@ -69,5 +69,3 @@ Hosted on [GitHub Pages](https://neil188.github.io/JavaScript30/)
 ## Day 29 - Countdown Timer
 
 ## Day 30 - Whack a Mole
-
-
