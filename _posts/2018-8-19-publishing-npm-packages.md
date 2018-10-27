@@ -319,7 +319,7 @@ now try running `npm pack` again - note this time the package/ directory has not
 
 #### npmignore
 
-Now try creating a .npmignore file to exclude our test file, populated with 
+Now try creating a .npmignore file to exclude our test file, populated with
 
 ```text
 index.test.js

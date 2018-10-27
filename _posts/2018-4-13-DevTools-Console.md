@@ -28,7 +28,6 @@ The output of the last evaluated expression is stored in variable $_
 As well as the most common `console.log('message')` you can also used warning messages:
 `console.warn('Warning')` or errors: `console.error('Error')`
 
-
 ### Format specifiers - inserting values
 
 You can use format specifiers such as `%s` (strings) or `%d` (integers) to insert values into an output string, for instance  

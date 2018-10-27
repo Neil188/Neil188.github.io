@@ -28,7 +28,6 @@ The Test262 ECMAScript Test Suite is used to attempt to measure conformity to th
 | JavaScriptCore (Nitro) | Safari | 97% | 99% | 64% |
 | Chakra | Microsoft Edge | 100% | 96% | 60% |
 
-
 ## TC39 5 Stage Process
 
 New proposals follow the The [TC39 5 stage process](https://tc39.github.io/process-document/){{ site.new_tab }}  

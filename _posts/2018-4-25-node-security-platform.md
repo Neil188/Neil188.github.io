@@ -5,7 +5,7 @@ categories: [tools]
 tags: [npm, security]
 ---
 
-The node security platform - [nsp](https://github.com/nodesecurity/nsp){{ site.new_tab }} is a tool to help you identify known vulnerabilities in your projects. 
+The node security platform - [nsp](https://github.com/nodesecurity/nsp){{ site.new_tab }} is a tool to help you identify known vulnerabilities in your projects.
 
 <!--more-->
 

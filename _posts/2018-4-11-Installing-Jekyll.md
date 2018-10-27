@@ -11,11 +11,15 @@ Jekyll on GitHub Pages does not require any local installation to use, you can j
 Jekyll isn't officially supported on Windows, but if you are running Windows 10 the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about){{ site.new_tab }} set up, then you can use this to install and run Jekyll.
 
 To do this follow the [guide on the Jekyll site](https://jekyllrb.com/docs/windows/){{ site.new_tab }}.  Once installed use command
+
 ```bash
 jekyll -v
 ```
+
 To check if Jekyll is correctly installed, then you can serve your site locally using
+
 ```bash
 jekyll serve
 ```
+
 Which should start your site on localhost port 4000 - you can now start breaking your site as much as you want!

@@ -11,7 +11,7 @@ The Chrome DevTools sources tab gives you very powerful tools for debugging your
 
 For more DevTools info see the [Google developers guide](https://developers.google.com/web/tools/chrome-devtools/javascript/){{ site.new_tab }}  
 
-##  The sources panel
+## The sources panel
 
 Opening DevTools, then selecting 'sources' will show you a screen with three panels - the File Navigator, The Code panel, and the Debugging pane.
 
