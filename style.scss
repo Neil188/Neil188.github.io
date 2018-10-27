@@ -18,23 +18,25 @@ html {
 body {
   background: $white;
   color: $darkGray;
-  font: 1.6rem/1.4 $verdana;
+  font: 1.8rem/1.5 $roboto;
+  @include mobile {
+    font-size: 1.6rem;
+  }  
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 1rem;
-  width: 100%;
+  max-width: 100%;
+  padding: 0 1.5rem;
+  width: 36em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $nunito;
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1rem 0 1.5rem;
+  margin: 2.5em 0 1em;
   padding: 0;
 
   @include mobile {
@@ -43,27 +45,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.998rem;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 2.827rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.999rem;
 }
 
 h4 {
-  font-size: 1.8rem;
+  font-size: 1.414rem;
   color: $gray;
 }
 
 p {
-  margin: 1.5rem 0;
+  margin: 1.8rem 0 1.5rem;
 }
 
 a {
@@ -78,7 +80,7 @@ a {
 
 ul, ol {
   margin: 1.5rem 0;
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 
 ul {
@@ -140,8 +142,10 @@ tr:hover {
 }
 
 .date {
+  font-family: $nunito;
   font-style: italic;
   color: $gray;
+  margin-top: 4rem;
 }
 
 // Specify the color of the selection
@@ -222,7 +226,7 @@ tr:hover {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $nunito;
   font-weight: 300;
   font-size: 2.8rem;
   letter-spacing: 0.1rem;
@@ -241,7 +245,7 @@ tr:hover {
 nav {
   float: right;
   margin-top: 2.3rem; 
-  font-family: $verdana;
+  font-family: $nunito;;
   font-size: 1.8rem;
 
   @include mobile {
@@ -289,6 +293,10 @@ nav {
     font-style: italic;
   }
 
+  .post-date {
+    font-family: $nunito;
+  }
+
   .comments {
     margin-top: 1rem;
   }
@@ -299,7 +307,7 @@ nav {
     background: url(/images/External_link.svg) no-repeat center right 0;
     background-size: 1.2rem;
     padding-right: 1.5rem;
-    transition: background-position 0.5s;
+    transition: background-position 0.2s;
   }
   .entry a[target="_blank"]:hover {
     background-position: center right 2px;
