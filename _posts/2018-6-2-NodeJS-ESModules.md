@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ES Modules in NodeJS
-categories: Nodejs
+categories: nodejs
 tags: [nodejs,javascript]
 ---
 

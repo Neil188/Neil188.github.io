@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Useful sites for Regular Expressions
-categories: Tools
+categories: tools
 tags: [regex, tools]
 ---
 
