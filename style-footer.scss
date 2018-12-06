@@ -4,11 +4,22 @@
 @import "svg-icons";
 
 .wrapper-footer {
+    background-color: $green;
     display: block;
     margin-top: 5rem;
-    border-top: 0.1rem solid #ddd;
-    border-bottom: 0.1rem solid #ddd;
-    background-color: $green;
+}
+
+.wrapper-footer::before {
+    background: $green;
+    clip-path: polygon(0 3rem, 100% 0, 100% 100%, 0 100%);
+    content: '';
+    display: block;
+    height: 4rem;
+    left: 0;
+    position: absolute;
+    transform: translateY(-3rem);
+    width: 100%;
+    z-index: -1;
 }
   
 footer {

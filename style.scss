@@ -70,16 +70,18 @@ p {
 }
 
 a {
-  color: $green;
+  --color:#{$green};
+  color: var(--color);
   cursor: pointer;
   text-decoration: none;
   &:hover, &:active {
-    color: $green;
+    --color: #{$lightgreen};
     text-decoration: underline;
   }
 }
 
 ul, ol {
+  letter-spacing: 1px;
   margin: 1.5rem 0;
   padding-left: 2rem;
 }
@@ -184,11 +186,20 @@ tr:hover {
 
 .masthead {
   padding: 2rem 0;
-  border-bottom: 0.1rem solid $green;
 
   @include mobile {
     text-align: center;
   }
+}
+
+.masthead::after {
+  content: '';
+  background-color:$green;
+  width: 100%;
+  transform: rotate($rotateNeg);
+  height: 0.1rem;
+  display: inline-block;
+  margin-top: 1rem;
 }
 
 .site-avatar {
@@ -284,6 +295,17 @@ nav {
   border-bottom: none;
 }
 
+.posts::after {
+  content: '';
+  background-color: $green;
+  width: 100%;
+  transform: rotate($rotatePos);
+  height: 0.1rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+
 .post {
   blockquote {
     margin: 1.8em .8em;
@@ -322,19 +344,21 @@ nav {
   }
 
   .post-category {
+    letter-spacing: 1px;
     text-transform: uppercase;
   }
 
   .read-more {
-    text-transform: uppercase;
     font-size: 1.5rem;
+    letter-spacing: 1px;
     margin-left : -4px;
     padding: 2px 4px;
+    text-transform: uppercase;
     &:before {
         content: "\27A4";
     }
     &:hover, &:active {
-      background: $green;
+      background: $lightgreen;
       color: white;
     }
   }
@@ -351,7 +375,6 @@ nav {
 //
 
 .pagination {
-  border-top: 0.1rem solid $green;
   display: flex;
   justify-content: space-around;
   padding: 2rem 0;
@@ -362,7 +385,7 @@ nav {
     display: inline-block;
     left: 2px;
     position: relative;
-    text-shadow: 0 0 $green;
+    text-shadow: 0 0 var(--color);
     top: -4px;
 
     @include mobile {
@@ -397,6 +420,13 @@ nav {
 //
 
 .container > .post > h1 {
+  @include title;
+}
+
+//
+// about
+//
+.page > h1 {
   @include title;
 }
 

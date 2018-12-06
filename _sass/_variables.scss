@@ -25,6 +25,10 @@ $verdana: Verdana, Arial, sans-serif;
 $roboto: 'Roboto', Arial, sans-serif;
 $nunito: 'Nunito', Arial, sans-serif;
 
+// Rotation
+$rotateNeg: -0.5deg;
+$rotatePos: 0.5deg;
+
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
