@@ -74,6 +74,7 @@ a {
   color: var(--color);
   cursor: pointer;
   text-decoration: none;
+  transition: all 0.1s ease-out;
   &:hover, &:active {
     --color: #{$lightgreen};
     text-decoration: underline;
@@ -330,7 +331,6 @@ nav {
     background: url(/images/External_link.svg) no-repeat center right 0;
     background-size: 1.2rem;
     padding-right: 1.5rem;
-    transition: background-position 0.2s;
   }
   .entry a[target="_blank"]:hover {
     background-position: center right 2px;
