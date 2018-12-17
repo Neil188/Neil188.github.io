@@ -30,3 +30,5 @@ The [Regex101](https://regex101.com/){{ site.new_tab }} can be a good guide to s
 I'll update the following gist as I submit more solutions to these challenges:
 
 <script src="https://gist.github.com/Neil188/d6afe38347a4df9e00b0ee411011b4e6.js"></script>
+
+Also see previous post [Games and Challenges]({{ site.baseurl }}{% post_url 2018-4-24-Games-and-Challenges %}) for other JavaScript and CSS games.

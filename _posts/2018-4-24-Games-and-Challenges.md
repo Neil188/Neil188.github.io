@@ -5,7 +5,7 @@ categories: [css, javascript]
 tags: [games]
 ---
 
-Games and challenges are a good way to learn new skills and practice things you have already learned, without having to start a new project.
+Games and challenges are a good way to learn new skills and practice subjects you have already learned, without having to start a new project.
 
 <!--more-->
 
@@ -22,6 +22,12 @@ My profile: [nlupton](https://js.checkio.org/user/nlupton/){{ site.new_tab }}
 * [edabit](https://edabit.com/explore){{ site.new_tab }}  
   Complete challenges to build XP.  
 My profile: [N_Lupton](https://edabit.com/user/AgQburWndXwEhgomM){{ site.new_tab }}
+
+### Progress
+
+I'll update the following gist as I submit more solutions to these challenges:
+
+<script src="https://gist.github.com/Neil188/48801658a6050f0d18b94e48f9fe5add.js"></script>
 
 ## CSS games
 
